@@ -16,7 +16,7 @@ const Cars = () => {
         document.querySelector(".modal-backdrop").style.display = "block"
         document.body.classList.add("modal-open")
     }
-    
+
     const hideBackdrop = (e) => {
         document.querySelector(".modal-backdrop").style.display = "none"
         document.body.classList.remove("modal-open")
@@ -31,7 +31,7 @@ const Cars = () => {
     return (
         <>
             <div className="container mt-4">
-                <div id="filter-box" style={{ marginTop: "-80px"}}>
+                <div id="filter-box" style={{ marginTop: "-80px" }}>
                     <div className="card mb-4" style={{ width: "inherit" }}>
                         <div className="card-body">
                             <div className="row">
@@ -39,15 +39,15 @@ const Cars = () => {
                                     <div className="row">
                                         <div className="col-lg-3 col-md-6">
                                             <div className="form-group" id="form-group1"><label>Tipe Driver</label>
-                                            <select id="select-driver" className="form-control" onFocus = {showBackdrop} onBlur = {hideBackdrop}>
-                                                <option>Pilih Tipe Driver</option>
-                                                <option value="Dengan Sopir">Dengan Sopir</option>
-                                                <option value="Tanpa Sopir (Lepas Kunci)">Tanpa Sopir (Lepas Kunci)</option>
-                                            </select></div>
+                                                <select id="select-driver" className="form-control" onFocus={showBackdrop} onBlur={hideBackdrop}>
+                                                    <option>Pilih Tipe Driver</option>
+                                                    <option value="Dengan Sopir">Dengan Sopir</option>
+                                                    <option value="Tanpa Sopir (Lepas Kunci)">Tanpa Sopir (Lepas Kunci)</option>
+                                                </select></div>
                                         </div>
                                         <div className="col-lg-3 col-md-6">
                                             <div className="form-group" id="form-group2"><label>Tanggal</label><input id="input-tanggal"
-                                                type="date" className="form-control" placeholder="Pilih Tanggal" onFocus = {showBackdrop} onBlur = {hideBackdrop} /></div>
+                                                type="date" className="form-control" placeholder="Pilih Tanggal" onFocus={showBackdrop} onBlur={hideBackdrop} /></div>
                                         </div>
                                         <div className="col-lg-3 col-md-6">
                                             <div className="form-group" id="form-group3"><label>Waktu Jemput/Ambil</label><input id="input-jemput" type="time" className="form-control" placeholder="Pilih Waktu" />
