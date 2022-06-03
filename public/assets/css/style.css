@@ -644,4 +644,9 @@ body {
 }
 /* End Footer */
 
-/* by Mardhani Dwi Novianto */
+@media (max-width: 992px) {
+    #card-car {
+        margin-left: -18px;
+    }
+}
+

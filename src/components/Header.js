@@ -6,7 +6,7 @@ const Header = () => {
   const [showButton, setShowButton] = useState()
 
   useEffect(() => {
-    if (location.pathname === "/cars" ) {
+    if (location.pathname === "/cars") {
       setShowButton(false);
     } else {
       setShowButton(true);
@@ -21,15 +21,15 @@ const Header = () => {
           <br /> terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu <br /> untuk sewa mobill selama 24 jam.
         </p>
         {showButton ? (
-                <Link
-                  className="btn btn-success showbutton"
-                  to="/cars"
-                >
-                  Mulai Sewa Mobil
-                </Link>
-              ) : (
-                <p></p>
-              )}
+          <Link
+            className="btn btn-success showbutton"
+            to="/cars"
+          >
+            Mulai Sewa Mobil
+          </Link>
+        ) : (
+          <p></p>
+        )}
       </div>
       <div className="col-md-6 d-flex justify-content-end content-1__gambar">
         <img className="img-fluid" src="/assets/img/car.svg" alt="car" id="car" />
