@@ -1,12 +1,8 @@
-# Getting Started with Create React App
+# Course Binar Academy : Full Stack Web Development
 
-In the project directory, you can run:
+## challenge-07 : React App
+Open https://dhani-challenge-07.web.app/
 
-### `yarn start`
+Relocate from https://gitlab.com/MardhaniDN9497/challenge-07
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-or 
-
-Open [https://dhani-challenge-07.web.app/]
